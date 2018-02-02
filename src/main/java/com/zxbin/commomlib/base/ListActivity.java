@@ -21,7 +21,7 @@ public abstract class ListActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.genture_activity);
+        setContentView(R.layout.list_activity);
         findViews();
         initRecyclerView();
     }
